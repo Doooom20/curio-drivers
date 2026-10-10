@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/.vscode",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/Adafruit_BusIO",
+                "${workspaceFolder}/include/Adafruit_GFX_Library",
+                "${workspaceFolder}/include/Adafruit_NeoPixel",
+                "${workspaceFolder}/include/Adafruit_SSD1306",
+                "${workspaceFolder}/include/Adafruit_seesaw_Library",
+                "${workspaceFolder}/src"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ARDUINO_ARCH_ESP32",
+                "ARDUINO_ADAFRUIT_QTPY_ESP32S3_N4R2",
+                "ESP32",
+                "F_CPU=240000000L",
+                "__cplusplus=201703L",
+                "PROGMEM=",
+                "PSTR(x)=x",
+                "pgm_read_byte(x)=*(x)",
+                "pgm_read_word(x)=*(x)",
+                "pgm_read_dword(x)=*(x)",
+                "pgm_read_float(x)=*(x)",
+                "pgm_read_ptr(x)=*(x)",
+                "F(x)=x"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/include/Adafruit_BusIO",
+                    "${workspaceFolder}/include/Adafruit_GFX_Library",
+                    "${workspaceFolder}/include/Adafruit_NeoPixel",
+                    "${workspaceFolder}/include/Adafruit_SSD1306",
+                    "${workspaceFolder}/include/Adafruit_seesaw_Library",
+                    "${workspaceFolder}/src"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

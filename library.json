@@ -1,0 +1,56 @@
+{
+  "name": "CurioDrivers",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "maintainer": "Your Name <your.email@example.com>",
+  "sentence": "Abstraction layer library for CurioLab program with integrated Adafruit drivers",
+  "paragraph": "CurioDrivers is a library acting as an abstraction layer to be used with the CurioLab program. It is designed to make it easier and more accessible to program and test driver extensions. Includes integrated support for Adafruit GFX, SSD1306, Seesaw, NeoPixel, and BusIO libraries.",
+  "category": "Device Control",
+  "url": "https://github.com/yourusername/CurioDrivers",
+  "architectures": "*",
+  "depends": [
+    {
+      "name": "Adafruit GFX Library",
+      "version": "1.12.6"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.5.17"
+    },
+    {
+      "name": "Adafruit Seesaw Library",
+      "version": "1.7.9"
+    },
+    {
+      "name": "Adafruit NeoPixel",
+      "version": "1.15.5"
+    },
+    {
+      "name": "Adafruit BusIO",
+      "version": "1.17.4"
+    }
+  ],
+  "keywords": [
+    "curio",
+    "drivers",
+    "abstraction",
+    "adafruit",
+    "gfx",
+    "ssd1306",
+    "seesaw",
+    "neopixel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/CurioDrivers.git"
+  },
+  "license": "MIT",
+  "export": {
+    "include": "src",
+    "exclude": [
+      "examples",
+      "tests",
+      "docs"
+    ]
+  }
+}
